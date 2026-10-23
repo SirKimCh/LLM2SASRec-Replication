@@ -1,0 +1,10 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 05:03:35,start,LLM2SASRec-shuffled beauty emb=palm seed=44 epochs<=100,OK,0.0
+2026-10-23 05:04:02,epoch,"{""epoch"": 1, ""loss"": 9.10854434967041, ""inner_val_NDCG@20"": 0.012177377469612324}",OK,0.0
+2026-10-23 05:04:27,epoch,"{""epoch"": 2, ""loss"": 8.801568984985352, ""inner_val_NDCG@20"": 0.01632104990189012}",OK,0.0
+2026-10-23 05:04:51,epoch,"{""epoch"": 3, ""loss"": 8.526313781738281, ""inner_val_NDCG@20"": 0.022430736846647648}",OK,0.0
+2026-10-23 05:05:15,epoch,"{""epoch"": 4, ""loss"": 8.272363662719727, ""inner_val_NDCG@20"": 0.0280612539679313}",OK,0.0
+2026-10-23 05:05:40,epoch,"{""epoch"": 5, ""loss"": 8.013830184936523, ""inner_val_NDCG@20"": 0.02530502159133186}",OK,0.0
+2026-10-23 05:06:05,epoch,"{""epoch"": 6, ""loss"": 7.729081153869629, ""inner_val_NDCG@20"": 0.02625527529519861}",OK,0.0
+2026-10-23 05:06:05,train,6 epoch,OK,149.7
+2026-10-23 05:06:17,predict,4469 phien,OK,12.52

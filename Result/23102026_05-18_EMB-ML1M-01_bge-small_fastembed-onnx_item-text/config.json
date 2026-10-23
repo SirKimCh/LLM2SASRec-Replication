@@ -1,0 +1,11 @@
+{
+ "unit": "emb:ml1m:bge-small",
+ "ma_tn": "EMB-ML1M-01",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 05:18:42",
+ "dataset": "ml1m",
+ "embedder": "BAAI/bge-small-en-v1.5",
+ "library": "fastembed",
+ "output": "dataset/ml1m_emb_bge-small.csv.gz",
+ "text_field": "items.csv:text"
+}

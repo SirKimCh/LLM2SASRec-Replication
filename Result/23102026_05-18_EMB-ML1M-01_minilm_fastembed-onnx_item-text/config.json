@@ -1,0 +1,11 @@
+{
+ "unit": "emb:ml1m:minilm",
+ "ma_tn": "EMB-ML1M-01",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 05:18:21",
+ "dataset": "ml1m",
+ "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+ "library": "fastembed",
+ "output": "dataset/ml1m_emb_minilm.csv.gz",
+ "text_field": "items.csv:text"
+}

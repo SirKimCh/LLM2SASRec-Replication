@@ -1,0 +1,11 @@
+{
+ "unit": "emb:beauty:minilm",
+ "ma_tn": "EMB-BEAUTY-01",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 05:14:11",
+ "dataset": "beauty",
+ "embedder": "sentence-transformers/all-MiniLM-L6-v2",
+ "library": "fastembed",
+ "output": "dataset/beauty_emb_minilm.csv.gz",
+ "text_field": "items.csv:text"
+}

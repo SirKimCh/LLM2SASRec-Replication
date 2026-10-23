@@ -1,0 +1,13 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+NDCG@10,0.02447419468,test,next_item,GRU4Rec
+HitRate@10,0.0487804878,test,next_item,GRU4Rec
+MRR@10,0.01716187706,test,next_item,GRU4Rec
+Catalog coverage@10,0.06982893976,test,next_item,GRU4Rec
+NDCG@20,0.03167788195,test,next_item,GRU4Rec
+HitRate@20,0.07742224211,test,next_item,GRU4Rec
+MRR@20,0.01911980724,test,next_item,GRU4Rec
+Catalog coverage@20,0.1075117759,test,next_item,GRU4Rec
+train_sec,134.0472429,train,time,GRU4Rec
+predict_sec,11.23048949,test,time,GRU4Rec
+epochs_run,8,train,time,GRU4Rec
+test_sessions,4469,test,count,GRU4Rec

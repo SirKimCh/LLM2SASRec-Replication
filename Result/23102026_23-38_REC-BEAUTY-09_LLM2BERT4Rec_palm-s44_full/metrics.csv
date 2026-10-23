@@ -1,0 +1,13 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+NDCG@10,0.03803934436,test,next_item,LLM2BERT4Rec
+HitRate@10,0.07249944059,test,next_item,LLM2BERT4Rec
+MRR@10,0.02769493193,test,next_item,LLM2BERT4Rec
+Catalog coverage@10,0.225188001,test,next_item,LLM2BERT4Rec
+NDCG@20,0.04743363906,test,next_item,LLM2BERT4Rec
+HitRate@20,0.1098679794,test,next_item,LLM2BERT4Rec
+MRR@20,0.03024517316,test,next_item,LLM2BERT4Rec
+Catalog coverage@20,0.3294769027,test,next_item,LLM2BERT4Rec
+train_sec,3278.115401,train,time,LLM2BERT4Rec
+predict_sec,12.5512979,test,time,LLM2BERT4Rec
+epochs_run,11,train,time,LLM2BERT4Rec
+test_sessions,4469,test,count,LLM2BERT4Rec

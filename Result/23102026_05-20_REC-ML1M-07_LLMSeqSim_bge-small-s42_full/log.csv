@@ -1,0 +1,4 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 05:20:12,start,LLMSeqSim ml1m emb=bge-small seed=42 epochs<=100,OK,0.0
+2026-10-23 05:20:12,train,0 epoch,OK,0.19
+2026-10-23 05:20:13,predict,1208 phien,OK,1.11

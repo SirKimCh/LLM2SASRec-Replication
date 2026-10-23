@@ -1,0 +1,11 @@
+.venv/
+DataOG/
+dataset/
+dataset_smoke/
+Result_smoke/
+.cache/
+.tools/
+.pytest_cache/
+__pycache__/
+hardware_profile.json
+resource_plan.json

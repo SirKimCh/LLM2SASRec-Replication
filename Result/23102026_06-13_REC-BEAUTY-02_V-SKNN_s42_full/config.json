@@ -1,0 +1,34 @@
+{
+ "unit": "rec:beauty:vsknn:-:42",
+ "ma_tn": "REC-BEAUTY-02",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 06:13:09",
+ "dataset": "beauty",
+ "model": "V-SKNN",
+ "model_key": "vsknn",
+ "embedding": "-",
+ "seed": 42,
+ "smoke": false,
+ "config": {
+  "decay": "harmonic",
+  "idf_weighting": false,
+  "k": 320,
+  "sample_size": 1530,
+  "sampling": "random",
+  "similarity_measure": "dot",
+  "filter_prompt_items": true,
+  "is_verbose": false,
+  "cores": 4,
+  "sample_random_state": 42
+ },
+ "epochs_run": 0,
+ "vendor_commit": "6464b39064f369b251580c63edbf635de0934101",
+ "versions": {
+  "tensorflow": "2.13.0",
+  "numpy": "1.24.3",
+  "pandas": "1.5.3",
+  "sklearn": "1.3.2",
+  "scipy": "1.10.1"
+ },
+ "protocol": "TemporalSplit test, last item, full catalogue, pred_seen False, early stopping (patience 2) on the original inner validation split: 10 % of train sessions capped at 500"
+}

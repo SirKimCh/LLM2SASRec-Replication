@@ -1,0 +1,33 @@
+{
+  "_note": "Data downloaded by 00_kiem_tra_moi_truong.py into DataOG/ (read-only). Every file is checked by size + MD5 on every launch; a missing or corrupt file is downloaded again, a failed download stops the run (no synthetic fallback).",
+  "datasets": {
+    "beauty": {
+      "source": "Amazon Beauty 2014 as pre-processed and shared by Harte et al. 2023 / Boz et al. 2024 (https://github.com/dh-r/LLM-Sequential-Recommendation, commit 6464b39); raw data: McAuley et al. (https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html)",
+      "licence": "repository BSD-3-Clause; dataset page: 'Please cite one or both of the following if you use the data in any way'",
+      "papers": ["Harte et al. RecSys 2023, doi 10.1145/3604915.3610639", "Boz et al. ACM TORS 2025, doi 10.1145/3711667", "He & McAuley WWW 2016"],
+      "files": [
+        {"path": "beauty/dataset.pickle", "url": "https://media.githubusercontent.com/media/dh-r/LLM-Sequential-Recommendation/6464b39064f369b251580c63edbf635de0934101/beauty/dataset.pickle", "size": 34982569, "md5": "5409c9040eafdfd4126bfe2e3d27e50b"},
+        {"path": "beauty/products_lookup.csv", "url": "https://raw.githubusercontent.com/dh-r/LLM-Sequential-Recommendation/6464b39064f369b251580c63edbf635de0934101/beauty/products_lookup.csv", "size": 961053, "md5": "bce9664f3df25721be4a10afe3f5cbf4"},
+        {"path": "beauty/product_embeddings_openai.csv.gz", "url": "https://media.githubusercontent.com/media/dh-r/LLM-Sequential-Recommendation/6464b39064f369b251580c63edbf635de0934101/beauty/product_embeddings_openai.csv.gz", "size": 158196603, "md5": "238dc51ec024f168b3f6b915a8703aa8"},
+        {"path": "beauty/product_embeddings_palm.csv.gz", "url": "https://media.githubusercontent.com/media/dh-r/LLM-Sequential-Recommendation/6464b39064f369b251580c63edbf635de0934101/beauty/product_embeddings_palm.csv.gz", "size": 85958942, "md5": "a777b2db76e95404d711dba40fe4f8f0"}
+      ]
+    },
+    "ml1m": {
+      "source": "MovieLens 1M, GroupLens (https://grouplens.org/datasets/movielens/1m/)",
+      "licence": "'The data set may be used for any research purposes under the following conditions ... may not use this information for any commercial or revenue-bearing purposes without first obtaining permission' (README)",
+      "papers": ["Harper & Konstan ACM TiiS 2015, doi 10.1145/2827872", "Kang & McAuley ICDM 2018 (SASRec)"],
+      "zip": {"url": "https://files.grouplens.org/datasets/movielens/ml-1m.zip", "size": 5917549, "into": "ml1m"},
+      "files": [
+        {"path": "ml1m/ml-1m/ratings.dat", "size": 24594131, "md5": "a89aa3591bc97d6d4e0c89459ff39362"},
+        {"path": "ml1m/ml-1m/movies.dat", "size": 171308, "md5": "ef9fd9ff8d1b33faf73e2122c371e910"},
+        {"path": "ml1m/ml-1m/users.dat", "size": 134368, "md5": "681c0711d0d4548cd3d4718a49c2dcd8"},
+        {"path": "ml1m/ml-1m/README", "size": 5577, "md5": "6a3f626147ec67b732a69beccae0aaa8"}
+      ]
+    }
+  },
+  "embedders": {
+    "bge-base": "BAAI/bge-base-en-v1.5",
+    "bge-small": "BAAI/bge-small-en-v1.5",
+    "minilm": "sentence-transformers/all-MiniLM-L6-v2"
+  }
+}

@@ -1,0 +1,13 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+NDCG@10,0.05352594124,test,next_item,SASRec
+HitRate@10,0.1001655629,test,next_item,SASRec
+MRR@10,0.03933301798,test,next_item,SASRec
+Catalog coverage@10,0.2277388019,test,next_item,SASRec
+NDCG@20,0.06705157613,test,next_item,SASRec
+HitRate@20,0.1539735099,test,next_item,SASRec
+MRR@20,0.04300137441,test,next_item,SASRec
+Catalog coverage@20,0.3084187804,test,next_item,SASRec
+train_sec,31.65134907,train,time,SASRec
+predict_sec,2.98689127,test,time,SASRec
+epochs_run,7,train,time,SASRec
+test_sessions,1208,test,count,SASRec

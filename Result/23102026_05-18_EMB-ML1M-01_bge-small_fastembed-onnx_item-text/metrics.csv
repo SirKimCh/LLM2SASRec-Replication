@@ -1,0 +1,5 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+items,3883,all,embedding,bge-small
+dim,384,all,embedding,bge-small
+embed_sec,22.30065274,all,embedding,bge-small
+cos_random_mean,0.585601449,all,embedding,bge-small

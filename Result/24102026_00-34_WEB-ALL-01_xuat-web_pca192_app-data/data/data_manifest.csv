@@ -1,0 +1,12 @@
+file,bytes
+beauty\demo_sessions.json,107335
+beauty\emb_bge-base.bin,9293568
+beauty\emb_openai-ada.bin,6144000
+beauty\emb_openai.bin,9293568
+beauty\items.json,1142037
+manifest.json,845
+ml1m\demo_sessions.json,110352
+ml1m\emb_bge-base.bin,2982144
+ml1m\emb_openai-ada.bin,1897472
+ml1m\items.json,197788
+results.json,13902

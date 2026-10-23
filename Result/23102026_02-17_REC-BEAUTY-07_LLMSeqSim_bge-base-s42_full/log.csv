@@ -1,0 +1,4 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 02:18:02,start,LLMSeqSim beauty emb=bge-base seed=42 epochs<=100,OK,0.0
+2026-10-23 02:18:03,train,0 epoch,OK,1.37
+2026-10-23 02:18:05,predict,4469 phien,OK,1.76

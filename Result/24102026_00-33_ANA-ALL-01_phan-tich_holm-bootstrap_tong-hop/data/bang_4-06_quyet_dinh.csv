@@ -1,0 +1,7 @@
+gia_thuyet,quy_tac,ket_qua,gia_tri
+H1,C1 a > b (t ghep cap theo seed: Holm m=4 + CI),a > b,
+H3,"C2: a > b => DAT; a < b => do cau hinh; khong ket luan duoc => khong ket luan duoc (doc kem epochs_run, cau hinh L2S patience 2)",DAT,
+H2,lam phong = (max5 L2S-PaLM - max5 SASRec) - C1 >= 10 % C1 => lac quan dang ke,lac quan dang ke,0.003101574002000002
+H4,"LLM2SASRec BGE-base vs PaLM, Beauty: can duoi CI cap-seed > -delta",khong chung minh duoc khong-kem-hon,
+H5,chuyen duoc khi C3 a > b VA (ML-1M LLM2SASRec-BGE - SASRec goc) co seed_ci_hi >= 0,chuyen duoc sang ML-1M,
+H6,C4 hai phia (t ghep cap theo seed: Holm m=4 + CI),khong ket luan duoc,

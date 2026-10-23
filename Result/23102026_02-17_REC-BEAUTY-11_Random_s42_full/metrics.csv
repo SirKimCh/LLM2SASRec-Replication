@@ -1,0 +1,13 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+NDCG@10,0.0004501648361,test,next_item,Random
+HitRate@10,0.001342582233,test,next_item,Random
+MRR@10,0.0001957044472,test,next_item,Random
+Catalog coverage@10,0.966366416,test,next_item,Random
+NDCG@20,0.0006076271328,test,next_item,Random
+HitRate@20,0.00201387335,test,next_item,Random
+MRR@20,0.0002326549012,test,next_item,Random
+Catalog coverage@20,0.9876043302,test,next_item,Random
+train_sec,0.007000923157,train,time,Random
+predict_sec,0.1548142433,test,time,Random
+epochs_run,0,train,time,Random
+test_sessions,4469,test,count,Random

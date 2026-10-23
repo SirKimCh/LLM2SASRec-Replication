@@ -1,0 +1,57 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+beauty|LLMSeqSim (openai)|NDCG@20_mean,0.04899583794,test,next_item,LLMSeqSim (openai)
+beauty|LLM2SASRec (openai)|NDCG@20_mean,0.04677722973,test,next_item,LLM2SASRec (openai)
+beauty|LLMSeqSim (bge-small)|NDCG@20_mean,0.04665436494,test,next_item,LLMSeqSim (bge-small)
+beauty|LLM2SASRec (minilm)|NDCG@20_mean,0.0463225755,test,next_item,LLM2SASRec (minilm)
+beauty|LLMSeqSim (bge-base)|NDCG@20_mean,0.04560831726,test,next_item,LLMSeqSim (bge-base)
+beauty|LLMSeqSim (minilm)|NDCG@20_mean,0.0453195774,test,next_item,LLMSeqSim (minilm)
+beauty|LLM2SASRec (bge-base)|NDCG@20_mean,0.04524476308,test,next_item,LLM2SASRec (bge-base)
+beauty|Fused-SASRec (bge-base)|NDCG@20_mean,0.0439371689,test,next_item,Fused-SASRec (bge-base)
+beauty|LLM2BERT4Rec (palm)|NDCG@20_mean,0.0439037152,test,next_item,LLM2BERT4Rec (palm)
+beauty|Fused-SASRec (openai)|NDCG@20_mean,0.04342559896,test,next_item,Fused-SASRec (openai)
+beauty|V-SKNN|NDCG@20_mean,0.0430315692,test,next_item,V-SKNN
+beauty|LLM2SASRec (palm)|NDCG@20_mean,0.0426628996,test,next_item,LLM2SASRec (palm)
+beauty|LLMSeqSim (palm)|NDCG@20_mean,0.03828159909,test,next_item,LLMSeqSim (palm)
+beauty|BERT4Rec|NDCG@20_mean,0.03656544095,test,next_item,BERT4Rec
+beauty|SASRec|NDCG@20_mean,0.03150393862,test,next_item,SASRec
+beauty|GRU4Rec|NDCG@20_mean,0.03136469191,test,next_item,GRU4Rec
+beauty|SASRec-L2Scfg|NDCG@20_mean,0.02834681492,test,next_item,SASRec-L2Scfg
+beauty|LLM2SASRec-shuffled (palm)|NDCG@20_mean,0.02255783294,test,next_item,LLM2SASRec-shuffled (palm)
+beauty|Popular|NDCG@20_mean,0.006358838702,test,next_item,Popular
+beauty|Random|NDCG@20_mean,0.0006076271328,test,next_item,Random
+ml1m|LLM2SASRec (bge-base)|NDCG@20_mean,0.07941856562,test,next_item,LLM2SASRec (bge-base)
+ml1m|Fused-SASRec (bge-base)|NDCG@20_mean,0.07825724,test,next_item,Fused-SASRec (bge-base)
+ml1m|LLM2SASRec (minilm)|NDCG@20_mean,0.07615576502,test,next_item,LLM2SASRec (minilm)
+ml1m|GRU4Rec|NDCG@20_mean,0.07178642,test,next_item,GRU4Rec
+ml1m|SASRec-L2Scfg|NDCG@20_mean,0.06946313849,test,next_item,SASRec-L2Scfg
+ml1m|SASRec|NDCG@20_mean,0.06708919699,test,next_item,SASRec
+ml1m|BERT4Rec|NDCG@20_mean,0.05154267003,test,next_item,BERT4Rec
+ml1m|LLMSeqSim (bge-base)|NDCG@20_mean,0.04033118539,test,next_item,LLMSeqSim (bge-base)
+ml1m|LLMSeqSim (bge-small)|NDCG@20_mean,0.0397862312,test,next_item,LLMSeqSim (bge-small)
+ml1m|V-SKNN|NDCG@20_mean,0.03884282832,test,next_item,V-SKNN
+ml1m|LLMSeqSim (minilm)|NDCG@20_mean,0.03817673696,test,next_item,LLMSeqSim (minilm)
+ml1m|LLM2BERT4Rec (bge-base)|NDCG@20_mean,0.01595320511,test,next_item,LLM2BERT4Rec (bge-base)
+ml1m|Popular|NDCG@20_mean,0.008342834806,test,next_item,Popular
+ml1m|Random|NDCG@20_mean,0.001406988946,test,next_item,Random
+C1|seed_mean_diff,0.01115896098,test,beauty,LLM2SASRec (palm) - SASRec
+C2|seed_mean_diff,0.01431608468,test,beauty,LLM2SASRec (palm) - SASRec-L2Scfg
+C3|seed_mean_diff,0.009955427132,test,ml1m,LLM2SASRec (bge-base) - SASRec-L2Scfg
+C4|seed_mean_diff,-0.001307594176,test,beauty,Fused-SASRec (bge-base) - LLM2SASRec (bge-base)
+S1|seed_mean_diff,0.01689794816,test,beauty,LLM2SASRec (bge-base) - SASRec-L2Scfg
+S2|seed_mean_diff,0.01374082445,test,beauty,LLM2SASRec (bge-base) - SASRec
+S3|seed_mean_diff,0.01797576059,test,beauty,LLM2SASRec (minilm) - SASRec-L2Scfg
+S4|seed_mean_diff,0.01843041481,test,beauty,LLM2SASRec (openai) - SASRec-L2Scfg
+S5|seed_mean_diff,0.01527329111,test,beauty,LLM2SASRec (openai) - SASRec
+S6|seed_mean_diff,0.01232936863,test,ml1m,LLM2SASRec (bge-base) - SASRec
+S7|seed_mean_diff,0.006692626538,test,ml1m,LLM2SASRec (minilm) - SASRec-L2Scfg
+S8|seed_mean_diff,-0.00116132562,test,ml1m,Fused-SASRec (bge-base) - LLM2SASRec (bge-base)
+S9|seed_mean_diff,-0.003351630772,test,beauty,Fused-SASRec (openai) - LLM2SASRec (openai)
+S10|seed_mean_diff,-0.00338752068,test,beauty,LLMSeqSim (bge-base) - LLMSeqSim (openai)
+S11|seed_mean_diff,-0.003157123704,test,beauty,SASRec-L2Scfg - SASRec
+S12|seed_mean_diff,0.002373941498,test,ml1m,SASRec-L2Scfg - SASRec
+S13|seed_mean_diff,0.007338274253,test,beauty,LLM2BERT4Rec (palm) - BERT4Rec
+S14|seed_mean_diff,-0.03558946491,test,ml1m,LLM2BERT4Rec (bge-base) - BERT4Rec
+S15|seed_mean_diff,0.02010506666,test,beauty,LLM2SASRec (palm) - LLM2SASRec-shuffled (palm)
+S16|seed_mean_diff,-0.005788981982,test,beauty,LLM2SASRec-shuffled (palm) - SASRec-L2Scfg
+S17|seed_mean_diff,0.005751211569,test,beauty,Popular - Random
+S18|seed_mean_diff,0.00693584586,test,ml1m,Popular - Random

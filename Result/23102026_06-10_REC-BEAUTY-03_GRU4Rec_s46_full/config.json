@@ -1,0 +1,40 @@
+{
+ "unit": "rec:beauty:gru4rec:-:46",
+ "ma_tn": "REC-BEAUTY-03",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 06:10:15",
+ "dataset": "beauty",
+ "model": "GRU4Rec",
+ "model_key": "gru4rec",
+ "embedding": "-",
+ "seed": 46,
+ "smoke": false,
+ "config": {
+  "N": 20,
+  "activation": "relu",
+  "emb_dim": 80,
+  "fit_batch_size": 32,
+  "hidden_dim": 32,
+  "optimizer_kwargs": {
+   "learning_rate": 0.0072,
+   "weight_decay": 0.08929
+  },
+  "early_stopping_patience": 2,
+  "is_verbose": true,
+  "pred_batch_size": 5000,
+  "pred_seen": false,
+  "train_val_fraction": 0.1,
+  "cores": 4,
+  "num_epochs": 100
+ },
+ "epochs_run": 9,
+ "vendor_commit": "6464b39064f369b251580c63edbf635de0934101",
+ "versions": {
+  "tensorflow": "2.13.0",
+  "numpy": "1.24.3",
+  "pandas": "1.5.3",
+  "sklearn": "1.3.2",
+  "scipy": "1.10.1"
+ },
+ "protocol": "TemporalSplit test, last item, full catalogue, pred_seen False, early stopping (patience 2) on the original inner validation split: 10 % of train sessions capped at 500"
+}

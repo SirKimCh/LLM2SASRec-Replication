@@ -1,0 +1,13 @@
+ten_do_do,gia_tri,tap,target,mo_hinh
+NDCG@10,0.03206603996,test,next_item,LLMSeqSim
+HitRate@10,0.05392705303,test,next_item,LLMSeqSim
+MRR@10,0.02535136229,test,next_item,LLMSeqSim
+Catalog coverage@10,0.7572927857,test,next_item,LLMSeqSim
+NDCG@20,0.03828159909,test,next_item,LLMSeqSim
+HitRate@20,0.07854106064,test,next_item,LLMSeqSim
+MRR@20,0.02705343466,test,next_item,LLMSeqSim
+Catalog coverage@20,0.8870341294,test,next_item,LLMSeqSim
+train_sec,1.548919916,train,time,LLMSeqSim
+predict_sec,1.819803238,test,time,LLMSeqSim
+epochs_run,0,train,time,LLMSeqSim
+test_sessions,4469,test,count,LLMSeqSim

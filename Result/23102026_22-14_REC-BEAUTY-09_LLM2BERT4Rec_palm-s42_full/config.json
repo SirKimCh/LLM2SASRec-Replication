@@ -1,0 +1,50 @@
+{
+ "unit": "rec:beauty:llm2bert4rec:palm:42",
+ "ma_tn": "REC-BEAUTY-09",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 22:14:30",
+ "dataset": "beauty",
+ "model": "LLM2BERT4Rec",
+ "model_key": "llm2bert4rec",
+ "embedding": "palm",
+ "seed": 42,
+ "smoke": false,
+ "config": {
+  "L": 2,
+  "N": 20,
+  "activation": "gelu",
+  "drop_rate": 0.45,
+  "emb_dim": 448,
+  "fit_batch_size": 224,
+  "h": 1,
+  "mask_prob": 0.65,
+  "optimizer_kwargs": {
+   "clipnorm": 5,
+   "learning_rate": 0.0012,
+   "weight_decay": 0.02354
+  },
+  "transformer_layer_kwargs": {
+   "layout": "FDRN"
+  },
+  "early_stopping_patience": 2,
+  "is_verbose": true,
+  "pred_batch_size": 5000,
+  "pred_seen": false,
+  "train_val_fraction": 0.1,
+  "cores": 4,
+  "num_epochs": 100,
+  "product_embeddings_location": "D:\\Cao Học\\HK4\\Hệ Thống Thông Minh - Thầy Nghe\\1_SeqRec\\src\\dataset\\beauty_emb_palm.csv.gz",
+  "red_params": {},
+  "red_method": "LDA"
+ },
+ "epochs_run": 9,
+ "vendor_commit": "6464b39064f369b251580c63edbf635de0934101",
+ "versions": {
+  "tensorflow": "2.13.0",
+  "numpy": "1.24.3",
+  "pandas": "1.5.3",
+  "sklearn": "1.3.2",
+  "scipy": "1.10.1"
+ },
+ "protocol": "TemporalSplit test, last item, full catalogue, pred_seen False, early stopping (patience 2) on the original inner validation split: 10 % of train sessions capped at 500"
+}

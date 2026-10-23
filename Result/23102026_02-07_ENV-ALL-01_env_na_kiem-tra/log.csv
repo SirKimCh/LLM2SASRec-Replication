@@ -1,0 +1,5 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 02:07:18,cache,"UV_CACHE_DIR=E:\NCKH\.cache\uv, HF_HOME=E:\NCKH\.cache\huggingface, FASTEMBED_CACHE_PATH=E:\NCKH\.cache\fastembed, MPLCONFIGDIR=E:\NCKH\.cache\matplotlib",OK,0.0
+2026-10-23 02:07:22,libs,"{""tensorflow"": ""2.13.0"", ""pandas"": ""1.5.3"", ""numpy"": ""1.24.3"", ""scipy"": ""1.10.1"", ""sklearn"": ""1.3.2"", ""numba"": ""0.57.1"", ""multiprocess"": ""0.70.19"", ""tenacity"": ""?"", ""jinja2"": ""3.1.6"", ""fastembed"": ""0.9.0"", ""onnxruntime"": ""1.19.2"", ""matplotlib"": ""3.10.9"", ""tqdm"": ""4.70.1"", ""psutil"": ""7.2.2""}",OK,0.0
+2026-10-23 02:07:23,data,beauty: 4 file khop MD5,OK,0.0
+2026-10-23 02:07:23,data,ml1m: 4 file khop MD5,OK,0.0

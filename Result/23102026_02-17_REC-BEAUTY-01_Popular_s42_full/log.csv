@@ -1,0 +1,4 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 02:17:27,start,Popular beauty emb=- seed=42 epochs<=100,OK,0.0
+2026-10-23 02:17:27,train,0 epoch,OK,0.0
+2026-10-23 02:17:27,predict,4469 phien,OK,0.0

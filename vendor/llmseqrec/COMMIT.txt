@@ -1,0 +1,2 @@
+﻿dh-r/LLM-Sequential-Recommendation commit 6464b39064f369b251580c63edbf635de0934101 (2024-02-05). Only main/*.py copied unchanged (excluded: notebooks, prompt_model/, gpt/, palm/, key.txt). BSD-3-Clause, see LICENSE.
+Also excluded: hybrids/ (needs the authors' private MLflow server), llm_based/embedding_utils/{openai_utils,palm_utils}.py (paid APIs).

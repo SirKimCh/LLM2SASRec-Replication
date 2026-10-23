@@ -1,0 +1,4 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 06:13:09,start,V-SKNN beauty emb=- seed=42 epochs<=100,OK,0.0
+2026-10-23 06:13:10,train,0 epoch,OK,0.08
+2026-10-23 06:17:00,predict,4469 phien,OK,230.4

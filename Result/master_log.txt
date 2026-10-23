@@ -1,0 +1,298 @@
+[2026-10-23 02:07:18] === 99_master_run  | akira@Kim ===
+[2026-10-23 02:07:18] >>> [-] env
+[2026-10-23 02:07:24] TIEN DO [                    ] 2/116 don vi | con ~9.2 h | akira@Kim
+[2026-10-23 02:07:24] >>> [A] emb:beauty:bge-base
+[2026-10-23 02:15:37] TIEN DO [                    ] 3/116 don vi | con ~9.1 h | akira@Kim
+[2026-10-23 02:15:37] >>> [A] emb:ml1m:bge-base
+[2026-10-23 02:17:23] TIEN DO [                    ] 4/116 don vi | con ~9.1 h | akira@Kim
+[2026-10-23 02:17:23] >>> [A] rec:beauty:popular:-:42
+[2026-10-23 02:17:29] TIEN DO [                    ] 5/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:17:29] >>> [A] rec:beauty:random:-:42
+[2026-10-23 02:17:35] TIEN DO [#                   ] 6/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:17:35] >>> [A] rec:beauty:llmseqsim:openai:42
+[2026-10-23 02:17:54] TIEN DO [#                   ] 7/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:17:54] >>> [A] rec:beauty:llmseqsim:bge-base:42
+[2026-10-23 02:18:07] TIEN DO [#                   ] 8/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:18:07] >>> [A] rec:beauty:sasrec:-:42
+[2026-10-23 02:20:38] TIEN DO [#                   ] 9/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:20:38] >>> [A] rec:beauty:sasrec:-:43
+[2026-10-23 02:23:32] TIEN DO [#                   ] 10/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:23:32] >>> [A] rec:beauty:sasrec:-:44
+[2026-10-23 02:26:32] TIEN DO [#                   ] 11/116 don vi | con ~9.0 h | akira@Kim
+[2026-10-23 02:26:32] >>> [A] rec:beauty:sasrec:-:45
+[2026-10-23 02:29:13] TIEN DO [##                  ] 12/116 don vi | con ~8.9 h | akira@Kim
+[2026-10-23 02:29:13] >>> [A] rec:beauty:sasrec:-:46
+[2026-10-23 02:31:40] TIEN DO [##                  ] 13/116 don vi | con ~8.9 h | akira@Kim
+[2026-10-23 02:31:40] >>> [A] rec:beauty:sasrec_l2s:-:42
+[2026-10-23 02:36:06] TIEN DO [##                  ] 14/116 don vi | con ~8.9 h | akira@Kim
+[2026-10-23 02:36:06] >>> [A] rec:beauty:sasrec_l2s:-:43
+[2026-10-23 02:39:29] TIEN DO [##                  ] 15/116 don vi | con ~8.8 h | akira@Kim
+[2026-10-23 02:39:29] >>> [A] rec:beauty:sasrec_l2s:-:44
+[2026-10-23 02:42:59] TIEN DO [##                  ] 16/116 don vi | con ~8.7 h | akira@Kim
+[2026-10-23 02:42:59] >>> [A] rec:beauty:sasrec_l2s:-:45
+[2026-10-23 02:47:49] TIEN DO [##                  ] 17/116 don vi | con ~8.7 h | akira@Kim
+[2026-10-23 02:47:49] >>> [A] rec:beauty:sasrec_l2s:-:46
+[2026-10-23 02:51:43] TIEN DO [###                 ] 18/116 don vi | con ~8.6 h | akira@Kim
+[2026-10-23 02:51:43] >>> [A] rec:beauty:llm2sasrec:palm:42
+[2026-10-23 02:55:12] TIEN DO [###                 ] 19/116 don vi | con ~8.8 h | akira@Kim
+[2026-10-23 02:55:12] >>> [A] rec:beauty:llm2sasrec:palm:43
+[2026-10-23 02:58:02] TIEN DO [###                 ] 20/116 don vi | con ~8.6 h | akira@Kim
+[2026-10-23 02:58:02] >>> [A] rec:beauty:llm2sasrec:palm:44
+[2026-10-23 03:00:52] TIEN DO [###                 ] 21/116 don vi | con ~8.5 h | akira@Kim
+[2026-10-23 03:00:52] >>> [A] rec:beauty:llm2sasrec:palm:45
+[2026-10-23 03:04:33] TIEN DO [###                 ] 22/116 don vi | con ~8.5 h | akira@Kim
+[2026-10-23 03:04:33] >>> [A] rec:beauty:llm2sasrec:palm:46
+[2026-10-23 03:07:14] TIEN DO [###                 ] 23/116 don vi | con ~8.4 h | akira@Kim
+[2026-10-23 03:07:14] >>> [A] rec:beauty:llm2sasrec:openai:42
+[2026-10-23 03:10:46] TIEN DO [####                ] 24/116 don vi | con ~8.4 h | akira@Kim
+[2026-10-23 03:10:46] >>> [A] rec:beauty:llm2sasrec:openai:43
+[2026-10-23 03:14:04] TIEN DO [####                ] 25/116 don vi | con ~8.4 h | akira@Kim
+[2026-10-23 03:14:04] >>> [A] rec:beauty:llm2sasrec:openai:44
+[2026-10-23 03:17:54] TIEN DO [####                ] 26/116 don vi | con ~8.3 h | akira@Kim
+[2026-10-23 03:17:54] >>> [A] rec:beauty:llm2sasrec:openai:45
+[2026-10-23 03:21:20] TIEN DO [####                ] 27/116 don vi | con ~8.3 h | akira@Kim
+[2026-10-23 03:21:20] >>> [A] rec:beauty:llm2sasrec:openai:46
+[2026-10-23 03:23:54] TIEN DO [####                ] 28/116 don vi | con ~8.2 h | akira@Kim
+[2026-10-23 03:23:54] >>> [A] rec:beauty:llm2sasrec:bge-base:42
+[2026-10-23 03:27:10] TIEN DO [#####               ] 29/116 don vi | con ~8.1 h | akira@Kim
+[2026-10-23 03:27:10] >>> [A] rec:beauty:llm2sasrec:bge-base:43
+[2026-10-23 03:30:39] TIEN DO [#####               ] 30/116 don vi | con ~8.1 h | akira@Kim
+[2026-10-23 03:30:39] >>> [A] rec:beauty:llm2sasrec:bge-base:44
+[2026-10-23 03:33:45] TIEN DO [#####               ] 31/116 don vi | con ~8.0 h | akira@Kim
+[2026-10-23 03:33:45] >>> [A] rec:beauty:llm2sasrec:bge-base:45
+[2026-10-23 03:37:15] TIEN DO [#####               ] 32/116 don vi | con ~8.0 h | akira@Kim
+[2026-10-23 03:37:15] >>> [A] rec:beauty:llm2sasrec:bge-base:46
+[2026-10-23 03:40:53] TIEN DO [#####               ] 33/116 don vi | con ~7.9 h | akira@Kim
+[2026-10-23 03:40:53] >>> [A] rec:beauty:fused:bge-base:42
+[2026-10-23 03:44:25] TIEN DO [#####               ] 34/116 don vi | con ~7.9 h | akira@Kim
+[2026-10-23 03:44:25] >>> [A] rec:beauty:fused:bge-base:43
+[2026-10-23 03:48:23] TIEN DO [######              ] 35/116 don vi | con ~7.9 h | akira@Kim
+[2026-10-23 03:48:23] >>> [A] rec:beauty:fused:bge-base:44
+[2026-10-23 03:52:07] TIEN DO [######              ] 36/116 don vi | con ~7.8 h | akira@Kim
+[2026-10-23 03:52:07] >>> [A] rec:beauty:fused:bge-base:45
+[2026-10-23 03:56:18] TIEN DO [######              ] 37/116 don vi | con ~7.8 h | akira@Kim
+[2026-10-23 03:56:18] >>> [A] rec:beauty:fused:bge-base:46
+[2026-10-23 04:00:16] TIEN DO [######              ] 38/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:00:16] >>> [A] rec:ml1m:popular:-:42
+[2026-10-23 04:00:22] TIEN DO [######              ] 39/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:00:22] >>> [A] rec:ml1m:random:-:42
+[2026-10-23 04:00:28] TIEN DO [######              ] 40/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:00:28] >>> [A] rec:ml1m:llmseqsim:bge-base:42
+[2026-10-23 04:00:37] TIEN DO [#######             ] 41/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:00:37] >>> [A] rec:ml1m:sasrec:-:42
+[2026-10-23 04:01:24] TIEN DO [#######             ] 42/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:01:24] >>> [A] rec:ml1m:sasrec:-:43
+[2026-10-23 04:02:03] TIEN DO [#######             ] 43/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:02:03] >>> [A] rec:ml1m:sasrec:-:44
+[2026-10-23 04:02:54] TIEN DO [#######             ] 44/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:02:54] >>> [A] rec:ml1m:sasrec:-:45
+[2026-10-23 04:03:29] TIEN DO [#######             ] 45/116 don vi | con ~7.7 h | akira@Kim
+[2026-10-23 04:03:29] >>> [A] rec:ml1m:sasrec:-:46
+[2026-10-23 04:04:09] TIEN DO [#######             ] 46/116 don vi | con ~7.6 h | akira@Kim
+[2026-10-23 04:04:09] >>> [A] rec:ml1m:sasrec_l2s:-:42
+[2026-10-23 04:05:35] TIEN DO [########            ] 47/116 don vi | con ~7.6 h | akira@Kim
+[2026-10-23 04:05:35] >>> [A] rec:ml1m:sasrec_l2s:-:43
+[2026-10-23 04:07:34] TIEN DO [########            ] 48/116 don vi | con ~7.6 h | akira@Kim
+[2026-10-23 04:07:34] >>> [A] rec:ml1m:sasrec_l2s:-:44
+[2026-10-23 04:09:47] TIEN DO [########            ] 49/116 don vi | con ~7.6 h | akira@Kim
+[2026-10-23 04:09:47] >>> [A] rec:ml1m:sasrec_l2s:-:45
+[2026-10-23 04:11:21] TIEN DO [########            ] 50/116 don vi | con ~7.6 h | akira@Kim
+[2026-10-23 04:11:21] >>> [A] rec:ml1m:sasrec_l2s:-:46
+[2026-10-23 04:13:10] TIEN DO [########            ] 51/116 don vi | con ~7.5 h | akira@Kim
+[2026-10-23 04:13:10] >>> [A] rec:ml1m:llm2sasrec:bge-base:42
+[2026-10-23 04:14:47] TIEN DO [########            ] 52/116 don vi | con ~7.5 h | akira@Kim
+[2026-10-23 04:14:47] >>> [A] rec:ml1m:llm2sasrec:bge-base:43
+[2026-10-23 04:16:51] TIEN DO [#########           ] 53/116 don vi | con ~7.5 h | akira@Kim
+[2026-10-23 04:16:51] >>> [A] rec:ml1m:llm2sasrec:bge-base:44
+[2026-10-23 04:18:23] TIEN DO [#########           ] 54/116 don vi | con ~7.5 h | akira@Kim
+[2026-10-23 04:18:23] >>> [A] rec:ml1m:llm2sasrec:bge-base:45
+[2026-10-23 04:20:10] TIEN DO [#########           ] 55/116 don vi | con ~7.4 h | akira@Kim
+[2026-10-23 04:20:10] >>> [A] rec:ml1m:llm2sasrec:bge-base:46
+[2026-10-23 04:21:40] TIEN DO [#########           ] 56/116 don vi | con ~7.4 h | akira@Kim
+[2026-10-23 04:21:40] >>> [A] rec:beauty:llm2sasrec_shuf:palm:42
+[2026-10-23 04:21:45] CRASH don vi rec:beauty:llm2sasrec_shuf:palm:42: 03_chay_mo_hinh.py --ds beauty --model llm2sasrec_shuf --emb palm --seed 42 -> ma thoat 1
+--- stderr (30 dong cuoi) ---
+INFO:root:Initializing neural model. The following devices will be available to TensorFlow:
+	PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')
+Traceback (most recent call last):
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\03_chay_mo_hinh.py", line 141, in <module>
+    main()
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\03_chay_mo_hinh.py", line 72, in main
+    model, cfg = models.build(a.model, str(emb_path) if emb_path else None, a.emb, lib.plan()["cores"], epochs, dim, a.seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\models.py", line 133, in build
+    cfg = dict(L2S, **nn, **emb, red_method="PCA"); return ShuffledSASRecWithEmbeddings(shuffle_seed=seed, **cfg), dict(cfg, shuffle_seed=seed)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\models.py", line 60, in __init__
+    super().__init__(**kw)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\sasrec\sasrec_with_embeddings.py", line 44, in __init__
+    super().__init__(**sasrec_config)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\sasrec\sasrec.py", line 25, in __init__
+    super().__init__(**transformer_kwargs)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\transformer.py", line 92, in __init__
+    f"Instantiating {self.name()} with configuration: {extract_config(self)}"
+                                                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\utils\config_util.py", line 45, in extract_config
+    config[parameter_name] = getattr(cls_or_obj, parameter_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ShuffledSASRecWithEmbeddings' object has no attribute 'shuffle_seed'
+
+Traceback (most recent call last):
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\99_master_run.py", line 190, in main
+    raise RuntimeError(f"{' '.join(u.cmd)} -> ma thoat {r.returncode}\n--- stderr (30 dong cuoi) ---\n{tail}")
+RuntimeError: 03_chay_mo_hinh.py --ds beauty --model llm2sasrec_shuf --emb palm --seed 42 -> ma thoat 1
+--- stderr (30 dong cuoi) ---
+INFO:root:Initializing neural model. The following devices will be available to TensorFlow:
+	PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')
+Traceback (most recent call last):
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\03_chay_mo_hinh.py", line 141, in <module>
+    main()
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\03_chay_mo_hinh.py", line 72, in main
+    model, cfg = models.build(a.model, str(emb_path) if emb_path else None, a.emb, lib.plan()["cores"], epochs, dim, a.seed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\models.py", line 133, in build
+    cfg = dict(L2S, **nn, **emb, red_method="PCA"); return ShuffledSASRecWithEmbeddings(shuffle_seed=seed, **cfg), dict(cfg, shuffle_seed=seed)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\models.py", line 60, in __init__
+    super().__init__(**kw)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\sasrec\sasrec_with_embeddings.py", line 44, in __init__
+    super().__init__(**sasrec_config)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\sasrec\sasrec.py", line 25, in __init__
+    super().__init__(**transformer_kwargs)
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\transformer\transformer.py", line 92, in __init__
+    f"Instantiating {self.name()} with configuration: {extract_config(self)}"
+                                                       ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\vendor\llmseqrec\main\utils\config_util.py", line 45, in extract_config
+    config[parameter_name] = getattr(cls_or_obj, parameter_name)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ShuffledSASRecWithEmbeddings' object has no attribute 'shuffle_seed'
+
+!! LICH DUNG. Sua nguyen nhan roi chay lai dung lenh cu — no chay tiep tu cho da dung.
+[2026-10-23 04:56:15] === 99_master_run  | akira@Kim ===
+[2026-10-23 04:56:15] >>> [-] env
+[2026-10-23 04:56:25] TIEN DO [#########           ] 56/116 don vi | con ~7.4 h | akira@Kim
+[2026-10-23 04:56:25] >>> [A] rec:beauty:llm2sasrec_shuf:palm:42
+[2026-10-23 05:00:09] TIEN DO [#########           ] 57/116 don vi | con ~7.4 h | akira@Kim
+[2026-10-23 05:00:09] >>> [A] rec:beauty:llm2sasrec_shuf:palm:43
+[2026-10-23 05:03:26] TIEN DO [##########          ] 58/116 don vi | con ~7.4 h | akira@Kim
+[2026-10-23 05:03:26] >>> [A] rec:beauty:llm2sasrec_shuf:palm:44
+[2026-10-23 05:06:20] TIEN DO [##########          ] 59/116 don vi | con ~7.3 h | akira@Kim
+[2026-10-23 05:06:20] >>> [A] rec:beauty:llm2sasrec_shuf:palm:45
+[2026-10-23 05:11:16] TIEN DO [##########          ] 60/116 don vi | con ~7.2 h | akira@Kim
+[2026-10-23 05:11:16] >>> [A] rec:beauty:llm2sasrec_shuf:palm:46
+[2026-10-23 05:14:10] TIEN DO [##########          ] 61/116 don vi | con ~7.2 h | akira@Kim
+[2026-10-23 05:14:10] >>> [B] emb:beauty:minilm
+[2026-10-23 05:15:31] TIEN DO [##########          ] 62/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:15:31] >>> [B] emb:beauty:bge-small
+[2026-10-23 05:18:20] TIEN DO [##########          ] 63/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:18:20] >>> [B] emb:ml1m:minilm
+[2026-10-23 05:18:41] TIEN DO [###########         ] 64/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:18:41] >>> [B] emb:ml1m:bge-small
+[2026-10-23 05:19:16] TIEN DO [###########         ] 65/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:19:16] >>> [B] rec:beauty:llmseqsim:palm:42
+[2026-10-23 05:19:32] TIEN DO [###########         ] 66/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:19:32] >>> [B] rec:beauty:llmseqsim:minilm:42
+[2026-10-23 05:19:44] TIEN DO [###########         ] 67/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:19:44] >>> [B] rec:beauty:llmseqsim:bge-small:42
+[2026-10-23 05:19:57] TIEN DO [###########         ] 68/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:19:57] >>> [B] rec:ml1m:llmseqsim:minilm:42
+[2026-10-23 05:20:06] TIEN DO [###########         ] 69/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:20:06] >>> [B] rec:ml1m:llmseqsim:bge-small:42
+[2026-10-23 05:20:16] TIEN DO [############        ] 70/116 don vi | con ~7.1 h | akira@Kim
+[2026-10-23 05:20:16] >>> [B] rec:beauty:llm2sasrec:minilm:42
+[2026-10-23 05:23:31] TIEN DO [############        ] 71/116 don vi | con ~7.0 h | akira@Kim
+[2026-10-23 05:23:31] >>> [B] rec:beauty:llm2sasrec:minilm:43
+[2026-10-23 05:26:50] TIEN DO [############        ] 72/116 don vi | con ~7.0 h | akira@Kim
+[2026-10-23 05:26:50] >>> [B] rec:beauty:llm2sasrec:minilm:44
+[2026-10-23 05:31:32] TIEN DO [############        ] 73/116 don vi | con ~6.9 h | akira@Kim
+[2026-10-23 05:31:32] >>> [B] rec:beauty:llm2sasrec:minilm:45
+[2026-10-23 05:35:17] TIEN DO [############        ] 74/116 don vi | con ~6.8 h | akira@Kim
+[2026-10-23 05:35:17] >>> [B] rec:beauty:llm2sasrec:minilm:46
+[2026-10-23 05:39:10] TIEN DO [############        ] 75/116 don vi | con ~6.8 h | akira@Kim
+[2026-10-23 05:39:10] >>> [B] rec:beauty:fused:openai:42
+[2026-10-23 05:43:02] TIEN DO [#############       ] 76/116 don vi | con ~6.7 h | akira@Kim
+[2026-10-23 05:43:02] >>> [B] rec:beauty:fused:openai:43
+[2026-10-23 05:46:55] TIEN DO [#############       ] 77/116 don vi | con ~6.7 h | akira@Kim
+[2026-10-23 05:46:55] >>> [B] rec:beauty:fused:openai:44
+[2026-10-23 05:51:19] TIEN DO [#############       ] 78/116 don vi | con ~6.6 h | akira@Kim
+[2026-10-23 05:51:19] >>> [B] rec:beauty:fused:openai:45
+[2026-10-23 05:55:11] TIEN DO [#############       ] 79/116 don vi | con ~6.5 h | akira@Kim
+[2026-10-23 05:55:11] >>> [B] rec:beauty:fused:openai:46
+[2026-10-23 05:59:05] TIEN DO [#############       ] 80/116 don vi | con ~6.5 h | akira@Kim
+[2026-10-23 05:59:05] >>> [B] rec:beauty:gru4rec:-:42
+[2026-10-23 06:01:55] TIEN DO [#############       ] 81/116 don vi | con ~6.5 h | akira@Kim
+[2026-10-23 06:01:55] >>> [B] rec:beauty:gru4rec:-:43
+[2026-10-23 06:04:28] TIEN DO [##############      ] 82/116 don vi | con ~6.4 h | akira@Kim
+[2026-10-23 06:04:28] >>> [B] rec:beauty:gru4rec:-:44
+[2026-10-23 06:07:38] TIEN DO [##############      ] 83/116 don vi | con ~6.4 h | akira@Kim
+[2026-10-23 06:07:38] >>> [B] rec:beauty:gru4rec:-:45
+[2026-10-23 06:10:10] TIEN DO [##############      ] 84/116 don vi | con ~6.3 h | akira@Kim
+[2026-10-23 06:10:10] >>> [B] rec:beauty:gru4rec:-:46
+[2026-10-23 06:13:04] TIEN DO [##############      ] 85/116 don vi | con ~6.3 h | akira@Kim
+[2026-10-23 06:13:04] >>> [B] rec:beauty:vsknn:-:42
+[2026-10-23 06:17:03] TIEN DO [##############      ] 86/116 don vi | con ~6.0 h | akira@Kim
+[2026-10-23 06:17:04] >>> [B] rec:ml1m:llm2sasrec:minilm:42
+[2026-10-23 06:18:55] TIEN DO [###############     ] 87/116 don vi | con ~6.0 h | akira@Kim
+[2026-10-23 06:18:55] >>> [B] rec:ml1m:llm2sasrec:minilm:43
+[2026-10-23 06:20:46] TIEN DO [###############     ] 88/116 don vi | con ~6.0 h | akira@Kim
+[2026-10-23 06:20:46] >>> [B] rec:ml1m:llm2sasrec:minilm:44
+[2026-10-23 06:22:33] TIEN DO [###############     ] 89/116 don vi | con ~6.0 h | akira@Kim
+[2026-10-23 06:22:33] >>> [B] rec:ml1m:llm2sasrec:minilm:45
+[2026-10-23 06:24:45] TIEN DO [###############     ] 90/116 don vi | con ~5.9 h | akira@Kim
+[2026-10-23 06:24:45] >>> [B] rec:ml1m:llm2sasrec:minilm:46
+[2026-10-23 06:26:40] TIEN DO [###############     ] 91/116 don vi | con ~5.9 h | akira@Kim
+[2026-10-23 06:26:40] >>> [B] rec:ml1m:fused:bge-base:42
+[2026-10-23 06:28:33] TIEN DO [###############     ] 92/116 don vi | con ~5.9 h | akira@Kim
+[2026-10-23 06:28:33] >>> [B] rec:ml1m:fused:bge-base:43
+[2026-10-23 06:30:56] TIEN DO [################    ] 93/116 don vi | con ~5.9 h | akira@Kim
+[2026-10-23 06:30:56] >>> [B] rec:ml1m:fused:bge-base:44
+[2026-10-23 06:32:43] TIEN DO [################    ] 94/116 don vi | con ~5.8 h | akira@Kim
+[2026-10-23 06:32:43] >>> [B] rec:ml1m:fused:bge-base:45
+[2026-10-23 06:34:49] TIEN DO [################    ] 95/116 don vi | con ~5.8 h | akira@Kim
+[2026-10-23 06:34:49] >>> [B] rec:ml1m:fused:bge-base:46
+[2026-10-23 06:37:23] TIEN DO [################    ] 96/116 don vi | con ~5.8 h | akira@Kim
+[2026-10-23 06:37:23] >>> [B] rec:ml1m:gru4rec:-:42
+[2026-10-23 06:38:14] TIEN DO [################    ] 97/116 don vi | con ~5.7 h | akira@Kim
+[2026-10-23 06:38:14] >>> [B] rec:ml1m:gru4rec:-:43
+[2026-10-23 06:39:13] TIEN DO [################    ] 98/116 don vi | con ~5.7 h | akira@Kim
+[2026-10-23 06:39:13] >>> [B] rec:ml1m:gru4rec:-:44
+[2026-10-23 06:40:13] TIEN DO [#################   ] 99/116 don vi | con ~5.7 h | akira@Kim
+[2026-10-23 06:40:13] >>> [B] rec:ml1m:gru4rec:-:45
+[2026-10-23 06:41:08] TIEN DO [#################   ] 100/116 don vi | con ~5.7 h | akira@Kim
+[2026-10-23 06:41:08] >>> [B] rec:ml1m:gru4rec:-:46
+[2026-10-23 06:42:11] TIEN DO [#################   ] 101/116 don vi | con ~5.7 h | akira@Kim
+[2026-10-23 06:42:11] >>> [B] rec:ml1m:vsknn:-:42
+[2026-10-23 06:50:27] TIEN DO [#################   ] 102/116 don vi | con ~5.5 h | akira@Kim
+[2026-10-23 06:50:27] >>> [C] rec:ml1m:bert4rec:-:42
+[2026-10-23 06:56:38] TIEN DO [#################   ] 103/116 don vi | con ~5.2 h | akira@Kim
+[2026-10-23 06:56:38] >>> [C] rec:ml1m:bert4rec:-:43
+[2026-10-23 07:04:19] TIEN DO [#################   ] 104/116 don vi | con ~5.1 h | akira@Kim
+[2026-10-23 07:04:19] >>> [C] rec:ml1m:bert4rec:-:44
+[2026-10-23 07:11:32] TIEN DO [##################  ] 105/116 don vi | con ~5.0 h | akira@Kim
+[2026-10-23 07:11:32] >>> [C] rec:ml1m:llm2bert4rec:bge-base:42
+[2026-10-23 07:23:32] TIEN DO [##################  ] 106/116 don vi | con ~4.2 h | akira@Kim
+[2026-10-23 07:23:32] >>> [C] rec:ml1m:llm2bert4rec:bge-base:43
+[2026-10-23 07:32:40] TIEN DO [##################  ] 107/116 don vi | con ~4.0 h | akira@Kim
+[2026-10-23 07:32:40] >>> [C] rec:ml1m:llm2bert4rec:bge-base:44
+[2026-10-23 07:47:26] TIEN DO [##################  ] 108/116 don vi | con ~3.8 h | akira@Kim
+[2026-10-23 07:47:26] >>> [C] rec:beauty:bert4rec:-:42
+[2026-10-23 08:05:30] TIEN DO [##################  ] 109/116 don vi | con ~2.8 h | akira@Kim
+[2026-10-23 08:05:30] >>> [C] rec:beauty:bert4rec:-:43
+[2026-10-23 08:34:11] TIEN DO [##################  ] 110/116 don vi | con ~2.6 h | akira@Kim
+[2026-10-23 08:34:11] >>> [C] rec:beauty:bert4rec:-:44
+[2026-10-23 08:56:36] TIEN DO [################### ] 111/116 don vi | con ~2.2 h | akira@Kim
+[2026-10-23 08:56:36] >>> [C] rec:beauty:llm2bert4rec:palm:42
+[2026-10-23 22:13:58] === 99_master_run  | akira@Kim ===
+[2026-10-23 22:13:58] >>> [-] env
+[2026-10-23 22:14:23] TIEN DO [################### ] 111/116 don vi | con ~2.2 h | akira@Kim
+[2026-10-23 22:14:24] >>> [C] rec:beauty:llm2bert4rec:palm:42
+[2026-10-23 22:58:55] TIEN DO [################### ] 112/116 don vi | con ~1.5 h | akira@Kim
+[2026-10-23 22:58:55] >>> [C] rec:beauty:llm2bert4rec:palm:43
+[2026-10-23 23:38:36] TIEN DO [################### ] 113/116 don vi | con ~0.8 h | akira@Kim
+[2026-10-23 23:38:36] >>> [C] rec:beauty:llm2bert4rec:palm:44
+[2026-10-24 00:33:40] TIEN DO [################### ] 114/116 don vi | con ~0.1 h | akira@Kim
+[2026-10-24 00:33:40] >>> [-] ana
+[2026-10-24 00:34:26] TIEN DO [################### ] 115/116 don vi | con ~0.0 h | akira@Kim
+[2026-10-24 00:34:26] >>> [-] web
+[2026-10-24 00:34:55] TIEN DO [####################] 116/116 don vi | con ~0.0 h | akira@Kim
+[2026-10-24 00:34:55] XONG: 2.35 h. Ket qua: D:\Cao Học\HK4\Hệ Thống Thông Minh - Thầy Nghe\1_SeqRec\src\Result

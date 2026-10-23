@@ -1,0 +1,8 @@
+timestamp,buoc,noi_dung,trang_thai,thoi_gian_giay
+2026-10-23 07:11:38,start,LLM2BERT4Rec ml1m emb=bge-base seed=42 epochs<=100,OK,0.0
+2026-10-23 07:14:44,epoch,"{""epoch"": 1, ""loss"": 7.457637310028076, ""inner_val_NDCG@20"": 0.016633912740916353}",OK,0.0
+2026-10-23 07:17:37,epoch,"{""epoch"": 2, ""loss"": 7.423445701599121, ""inner_val_NDCG@20"": 0.020672841652262863}",OK,0.0
+2026-10-23 07:20:30,epoch,"{""epoch"": 3, ""loss"": 7.417968273162842, ""inner_val_NDCG@20"": 0.019768557781946382}",OK,0.0
+2026-10-23 07:23:24,epoch,"{""epoch"": 4, ""loss"": 7.415030002593994, ""inner_val_NDCG@20"": 0.01859085813465479}",OK,0.0
+2026-10-23 07:23:24,train,4 epoch,OK,705.18
+2026-10-23 07:23:28,predict,1208 phien,OK,4.04

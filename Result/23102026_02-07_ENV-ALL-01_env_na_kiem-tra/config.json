@@ -1,0 +1,38 @@
+{
+ "unit": "env:1792696039",
+ "ma_tn": "ENV-ALL-01",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 02:07:18",
+ "hardware": {
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.14",
+  "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+  "cores_physical": 8,
+  "cores_logical": 12,
+  "ram_total_gb": 16.9,
+  "ram_free_gb": 7.1,
+  "disk_free_gb": 12.8
+ },
+ "resource_plan": {
+  "device": "cpu",
+  "cores": 4,
+  "note": "TensorFlow 2.13 on Windows runs on CPU; one unit at a time"
+ },
+ "libraries": {
+  "tensorflow": "2.13.0",
+  "pandas": "1.5.3",
+  "numpy": "1.24.3",
+  "scipy": "1.10.1",
+  "sklearn": "1.3.2",
+  "numba": "0.57.1",
+  "multiprocess": "0.70.19",
+  "tenacity": "?",
+  "jinja2": "3.1.6",
+  "fastembed": "0.9.0",
+  "onnxruntime": "1.19.2",
+  "matplotlib": "3.10.9",
+  "tqdm": "4.70.1",
+  "psutil": "7.2.2"
+ },
+ "vendor_commit": "6464b39064f369b251580c63edbf635de0934101"
+}

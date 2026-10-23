@@ -1,0 +1,31 @@
+{
+ "unit": "web",
+ "ma_tn": "WEB-ALL-01",
+ "machine": "akira@Kim",
+ "started": "2026-10-24 00:34:30",
+ "out": "app_web\\public\\data",
+ "pca_dim": 192,
+ "demo_models": [
+  [
+   "sasrec",
+   "-"
+  ],
+  [
+   "llm2sasrec",
+   "openai"
+  ],
+  [
+   "llm2sasrec",
+   "bge-base"
+  ],
+  [
+   "fused",
+   "bge-base"
+  ],
+  [
+   "llmseqsim",
+   "bge-base"
+  ]
+ ],
+ "source_ana": "24102026_00-33_ANA-ALL-01_phan-tich_holm-bootstrap_tong-hop"
+}

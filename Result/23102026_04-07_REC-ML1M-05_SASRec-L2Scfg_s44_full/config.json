@@ -1,0 +1,45 @@
+{
+ "unit": "rec:ml1m:sasrec_l2s:-:44",
+ "ma_tn": "REC-ML1M-05",
+ "machine": "akira@Kim",
+ "started": "2026-10-23 04:07:38",
+ "dataset": "ml1m",
+ "model": "SASRec-L2Scfg",
+ "model_key": "sasrec_l2s",
+ "embedding": "-",
+ "seed": 44,
+ "smoke": false,
+ "config": {
+  "L": 1,
+  "N": 20,
+  "activation": "relu",
+  "drop_rate": 0.0,
+  "emb_dim": 352,
+  "fit_batch_size": 416,
+  "h": 2,
+  "optimizer_kwargs": {
+   "learning_rate": 0.0003,
+   "weight_decay": 0.057
+  },
+  "transformer_layer_kwargs": {
+   "layout": "NFDR"
+  },
+  "early_stopping_patience": 2,
+  "is_verbose": true,
+  "pred_batch_size": 5000,
+  "pred_seen": false,
+  "train_val_fraction": 0.1,
+  "cores": 4,
+  "num_epochs": 100
+ },
+ "epochs_run": 19,
+ "vendor_commit": "6464b39064f369b251580c63edbf635de0934101",
+ "versions": {
+  "tensorflow": "2.13.0",
+  "numpy": "1.24.3",
+  "pandas": "1.5.3",
+  "sklearn": "1.3.2",
+  "scipy": "1.10.1"
+ },
+ "protocol": "TemporalSplit test, last item, full catalogue, pred_seen False, early stopping (patience 2) on the original inner validation split: 10 % of train sessions capped at 500"
+}
